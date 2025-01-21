@@ -1,0 +1,10 @@
+The following CSS code snippet results in unexpected behavior in certain browsers:
+
+```css
+div {
+  width: 50%;
+  float: left;
+}
+```
+
+This might cause unexpected layout issues due to the usage of `float`.  The `width: 50%;`  coupled with `float: left;` can create unexpected layout breaks when the content within the divs doesn't perfectly fill the 50% width, leading to content wrapping or collapsing in unexpected ways. 
