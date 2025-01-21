@@ -1,0 +1,14 @@
+The issue can be resolved using Flexbox or Grid.  Here's an example using Flexbox:
+
+```css
+div {
+  width: 50%;
+  box-sizing: border-box; /* Include padding and border in the 50% width */
+}
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping onto multiple lines if needed */
+}
+```
+
+This approach provides a more predictable and consistent layout across different browsers and devices.  The `box-sizing: border-box;` rule ensures that padding and borders are included within the element's width calculation.
